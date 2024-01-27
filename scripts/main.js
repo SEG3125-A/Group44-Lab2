@@ -22,7 +22,6 @@ function openInfo(tabName) {
 
 }
 
-
 	
 // generate a checkbox list from a list of products
 // it makes each product name as the label for the checkbos
@@ -91,5 +90,16 @@ function selectedItems(){
 	c.appendChild(document.createTextNode("Total Price is " + getTotalPrice(chosenProducts)));
 		
 }
+
+let selectedFilters = new Array();
+const filters = document.getElementsByClassName('filter');
+for (let i = 0; i < filters.length; i++) {
+    filters[i].addEventListener('click', () => {
+        console.log("clicked:" + filters[i].name);
+    });
+}
+
+
+openInfo('Products');
 
 export { openInfo };
