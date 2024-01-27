@@ -23,7 +23,10 @@ o	Sorted products list by price
 
 
 >Zechen Zhou
-o	Implemented Cart page and Products page functionality
+Added product list
+Created price entry for products
+Sorted the products by price
+Hosted this lab on GitHub Pages
 >
 ### 5. Snapshots of the website: 
   ![](/Docs/Images/snapshot.png)
